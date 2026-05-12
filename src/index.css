@@ -22,3 +22,15 @@
   padding-bottom: 10px;
   border-radius: 10px;
 }
+.parentsquare{
+  display: grid;
+  grid-template-columns: 300px 300px; 
+  background-color: lightblue;
+  column-gap: 20px;
+}
+.square{
+  
+  height: 300px;
+  background-color: lightslategray;
+  border-radius: 10px;
+}
