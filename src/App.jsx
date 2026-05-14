@@ -1,17 +1,13 @@
-import card from './component/card.jsx'
+import Card from './component/card.jsx'
 import nav from './component/Navbar.jsx'
-import squareCards from './component/squarecards.jsx'
+import SquareCards from './component/squarecards.jsx'
 function App() {
-  return <div>
-    {nav()}
-    {card()}
-    {card()}
-    {card()}
-    {squareCards()}
-
+  return <div className='parent'>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
     
-
-
     
   </div>
 
