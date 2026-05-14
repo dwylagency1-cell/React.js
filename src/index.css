@@ -22,10 +22,9 @@
   padding-bottom: 10px;
   border-radius: 10px;
 }
-.parentsquare{
+.parent{
   display: grid;
-  grid-template-columns: 300px 300px; 
-  background-color: lightblue;
+  grid-template-columns: 300px 300px 300px;
   column-gap: 20px;
 }
 .square{
