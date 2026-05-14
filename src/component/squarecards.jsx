@@ -1,8 +1,9 @@
-function squareCards() {
-    return <div className="parentsquare">
-        <div className="square"></div>
-        <div className="square"></div>
-
-        </div>
+function SquareCards(props) {
+    
+    return <div className="square">
+        <h1>{props.user}</h1>
+        <p>{props.age}</p>
+    </div> 
+          
 }
-export default squareCards
+export default SquareCards
