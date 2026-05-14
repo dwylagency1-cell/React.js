@@ -16,5 +16,30 @@
 .card{
   height: 400px;
   background-color: white;
+  border-radius: 40px;
 }
+.top{
+  height: 100px;
+  width: 300px;
+  background-color: lightpink;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top_left{
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  border-radius: 40px;
+}
+.top_right{
+  height: 100px;
+  width: 200px;
+  background-color: lightslategray;
+  border-radius: 40px;
+
+}
+
+
 
