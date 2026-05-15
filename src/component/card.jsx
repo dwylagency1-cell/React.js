@@ -13,7 +13,9 @@ function Card() {
       </div>
       <div className="mid">
         <div className="mid_section">
-          <div className="inside_mid"></div>
+          <div className="inside_mid">
+            <h3>Amazon</h3>
+          </div>
         </div>
       </div>
       <div className="bottom">
