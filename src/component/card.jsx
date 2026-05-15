@@ -14,7 +14,7 @@ function Card() {
       <div className="mid">
         <div className="mid_section">
           <div className="inside_mid">
-            <h3>Amazon</h3>
+            <h3>Amazon<span>5 days ago</span></h3>
           </div>
         </div>
       </div>
