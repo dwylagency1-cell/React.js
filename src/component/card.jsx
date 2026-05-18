@@ -14,7 +14,16 @@ function Card() {
       <div className="mid">
         <div className="mid_section">
           <div className="inside_mid">
-            <h3>Amazon<span>5 days ago</span></h3>
+            <p className='p'>Amazon <span className='span'>5 days ago</span></p>
+            <h2 className='p2'>Senior UI/UX Designer</h2> 
+            <div className='tag'>
+              <div className='tag_div'>
+                <p className='tag_h'>Part time</p>
+              </div>
+              <div className='tag_div'>
+                <p className='tag_h'>Senior level</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
