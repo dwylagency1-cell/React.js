@@ -9,7 +9,7 @@
 .square{
   
   height: 300px;
-  background-color: lightslategray;
+  
   border-radius: 10px;
   column-gap: 20px;
 }
@@ -21,7 +21,7 @@
 .top{
   height: 100px;
   width: 300px;
-  background-color: lightpink;
+  
   border-radius: 40px;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@
 .top_left{
   height: 100px;
   width: 100px;
-  background-color: lightcoral;
+  
   border-radius: 40px;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@
 .top_right{
   height: 100px;
   width: 200px;
-  background-color: lightslategray;
+  
   border-radius: 40px;
   display: flex;
   justify-content: right;
@@ -49,13 +49,14 @@
 .mid_section{
   width: 300px;
   height: 200px;
-  background-color: lightpink;
+  
   
 }
 .inside_mid{
   width: 300px;
   height: 100px;
-  background-color: antiquewhite;
+  
+  position: relative;
 }
 .bottom{
   width: 300px;
@@ -76,7 +77,51 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 10px;
+}
+.p{
+  line-height: 0px;
+  position: absolute;
+  font-size: 22px;
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+  
+}
+.p2{
+  line-height: 70px;
+  position: absolute;
+  margin-left: 20px;
+  font-family: arial;
 
+
+}
+.span{
+  font-size: 15px;
+  color: gray;
+  font-weight: lighter;
+}
+.tag{
+  position: absolute;
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+  margin-top: 75px;
+  width: 200px;
+  margin-left: 20px;
+  font-family: Arial;
+  font-weight: lighter;
+  
+}
+.tag_h{
+  line-height: 0px;
+  font-size: 13px;
+}
+.tag_div{
+  background-color: rgb(226, 225, 225);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
 }
 
 
