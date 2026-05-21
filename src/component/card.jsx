@@ -1,6 +1,6 @@
 import {Bookmark} from 'lucide-react'
 import amazonlogo from './img/amazon.png'
-function Card() {
+function Card(props) {
     return <div >
     <div className='card'>
       <div className="top">
@@ -14,14 +14,14 @@ function Card() {
       <div className="mid">
         <div className="mid_section">
           <div className="inside_mid">
-            <p className='p'>Amazon <span className='span'>5 days ago</span></p>
-            <h2 className='p2'>Senior UI/UX Designer</h2> 
+            <p className='p'>{props.Company} <span className='span'>{props.day} days ago</span></p>
+            <h2 className='p2'>{props.role}</h2> 
             <div className='tag'>
               <div className='tag_div'>
-                <p className='tag_h'>Part time</p>
+                <p className='tag_h'>{props.part_time}</p>
               </div>
               <div className='tag_div'>
-                <p className='tag_h'>Senior level</p>
+                <p className='tag_h'>{props.level}</p>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ function Card() {
       <div className="bottom">
         <div className='bottom_div'>
           <div className='bottom_div_left'>
-            <h2 className='text'>$120/hr</h2>
+            <h2 className='text'>${props.money}/hr</h2>
           </div>
           <div className='bottom_div_right'>
             <button className='apply'>Apply now</button>
