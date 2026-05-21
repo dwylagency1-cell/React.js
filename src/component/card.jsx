@@ -32,7 +32,9 @@ function Card() {
           <div className='bottom_div_left'>
             <h2 className='text'>$120/hr</h2>
           </div>
-          <div className='bottom_div_right'></div>
+          <div className='bottom_div_right'>
+            <button className='apply'>Apply now</button>
+          </div>
 
 
         </div>
