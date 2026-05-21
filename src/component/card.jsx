@@ -29,9 +29,12 @@ function Card() {
       </div>
       <div className="bottom">
         <div className='bottom_div'>
-          <div className='bottom_div_left'></div>
+          <div className='bottom_div_left'>
+            <h2 className='text'>$120/hr</h2>
+          </div>
+          <div className='bottom_div_right'></div>
 
-          
+
         </div>
         
       </div>
