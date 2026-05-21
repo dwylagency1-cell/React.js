@@ -63,6 +63,9 @@
   height: 100px;
   background-color: lightgrey;
   border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .amazonimg{
   width: 80px;
@@ -122,6 +125,11 @@
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 10px;
+}
+.bottom_div{
+  background-color: lightcoral;
+  width: 270px;
+  height: 80px;
 }
 
 
