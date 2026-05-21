@@ -30,6 +30,8 @@ function Card() {
       <div className="bottom">
         <div className='bottom_div'>
           <div className='bottom_div_left'></div>
+
+          
         </div>
         
       </div>
