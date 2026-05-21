@@ -130,6 +130,30 @@
   background-color: lightcoral;
   width: 270px;
   height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom_div_left{
+  background-color: lightgreen;
+  width: 100px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.text{
+  position: absolute;
+  font-size: 20px;
+  font-family: arial;
+  font-weight: lighter;
+}
+.bottom_div_right{
+  background-color: lightskyblue;
+  position: relative;
+  width: 200px;
+  height: 100px;
 }
 
 
