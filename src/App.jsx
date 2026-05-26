@@ -1,21 +1,26 @@
 import Card from './component/card.jsx'
 import nav from './component/Navbar.jsx'
 import SquareCards from './component/squarecards.jsx'
+import google from './component/img/google.png'
+import amazon from './component/img/amazon.png'
+import micro from './component/img/microsoft.png'
+import meta from './component/img/meta.png'
+
 
 function App() {
   const jobs = [
   {
-    brandLogo: "https://logo.clearbit.com/google.com",
+    brandLogo: google,
     companyName: "Google",
     postedDate: "2 days ago",
-    jobPost: "Frontend React Developer",
+    jobPost: "Graphic Designer",
     tag1: "Full Time",
     tag2: "Junior Level",
     payPerHour: "$120/hr"
   },
 
   {
-    brandLogo: "https://logo.clearbit.com/microsoft.com",
+    brandLogo: micro,
     companyName: "Microsoft",
     postedDate: "1 week ago",
     jobPost: "UI/UX Engineer",
@@ -25,17 +30,17 @@ function App() {
   },
 
   {
-    brandLogo: "https://logo.clearbit.com/amazon.com",
+    brandLogo: amazon,
     companyName: "Amazon",
     postedDate: "5 days ago",
-    jobPost: "Backend Python Developer",
+    jobPost: "Backend Developer",
     tag1: "Full Time",
     tag2: "Senior Level",
     payPerHour: "$180/hr"
   },
 
   {
-    brandLogo: "https://logo.clearbit.com/meta.com",
+    brandLogo: meta,
     companyName: "Meta",
     postedDate: "3 weeks ago",
     jobPost: "React Native Developer",
@@ -44,70 +49,11 @@ function App() {
     payPerHour: "$110/hr"
   },
 
-  {
-    brandLogo: "https://logo.clearbit.com/apple.com",
-    companyName: "Apple",
-    postedDate: "4 days ago",
-    jobPost: "iOS Software Engineer",
-    tag1: "Full Time",
-    tag2: "Senior Level",
-    payPerHour: "$220/hr"
-  },
-
-  {
-    brandLogo: "https://logo.clearbit.com/netflix.com",
-    companyName: "Netflix",
-    postedDate: "6 days ago",
-    jobPost: "Streaming Platform Engineer",
-    tag1: "Remote",
-    tag2: "Senior Level",
-    payPerHour: "$250/hr"
-  },
-
-  {
-    brandLogo: "https://logo.clearbit.com/spotify.com",
-    companyName: "Spotify",
-    postedDate: "2 weeks ago",
-    jobPost: "Frontend Web Designer",
-    tag1: "Part Time",
-    tag2: "Junior Level",
-    payPerHour: "$85/hr"
-  },
-
-  {
-    brandLogo: "https://logo.clearbit.com/tesla.com",
-    companyName: "Tesla",
-    postedDate: "10 days ago",
-    jobPost: "Automation Software Engineer",
-    tag1: "Full Time",
-    tag2: "Mid Level",
-    payPerHour: "$170/hr"
-  },
-
-  {
-    brandLogo: "https://logo.clearbit.com/adobe.com",
-    companyName: "Adobe",
-    postedDate: "1 month ago",
-    jobPost: "Creative Cloud Developer",
-    tag1: "Remote",
-    tag2: "Senior Level",
-    payPerHour: "$190/hr"
-  },
-
-  {
-    brandLogo: "https://logo.clearbit.com/openai.com",
-    companyName: "OpenAI",
-    postedDate: "3 days ago",
-    jobPost: "AI Product Engineer",
-    tag1: "Full Time",
-    tag2: "Senior Level",
-    payPerHour: "$300/hr"
-  }
 ];
   
     return <div className='parent'>
       {jobs.map(function(elem) {
-        return <Card companylogo = {elem.brandLogo} companyName = {elem.companyName}/>
+        return <Card companylogo = {elem.brandLogo} companyname = {elem.companyName} posteddate = {elem.postedDate} tag_1 = {elem.tag1} tag_2 = {elem.tag2} payPerhour = {elem.payPerHour} jobpost = {elem.jobPost} />
       })    
 }
         </div>
