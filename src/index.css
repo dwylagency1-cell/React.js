@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
   column-gap: 50px;
-  background-color: lightblue;
+  
   margin: 20px;
 }
 .square{
@@ -68,7 +68,10 @@
   justify-content: center;
 }
 .amazonimg{
-  width: 80px;
+  width: 70px;
+  border-radius: 60px;
+ 
+  
 }
 .save{
   display: flex;
