@@ -15,14 +15,14 @@ function Card(props) {
       <div className="mid">
         <div className="mid_section">
           <div className="inside_mid">
-            <p className='p'>{props.CompanyName} <span className='span'> days ago</span></p>
-            <h2 className='p2'></h2> 
+            <p className='p'>{props.companyname} <span className='span'> days ago</span></p>
+            <h2 className='p2'>{props.jobpost}</h2> 
             <div className='tag'>
               <div className='tag_div'>
-                <p className='tag_h'></p>
+                <p className='tag_h'>{props.tag_1}</p>
               </div>
               <div className='tag_div'>
-                <p className='tag_h'></p>
+                <p className='tag_h'>{props.tag_2}</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ function Card(props) {
       <div className="bottom">
         <div className='bottom_div'>
           <div className='bottom_div_left'>
-            <h2 className='text'>$/hr</h2>
+            <h2 className='text'>{props.payPerhour}</h2>
           </div>
           <div className='bottom_div_right'>
             <button className='apply'>Apply now</button>
